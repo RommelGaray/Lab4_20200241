@@ -8,8 +8,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HomeController {
 
     @GetMapping("/")
-    @ResponseBody
     public String paginaPrincipal(){
-        return "Mensaje motivador: Siuuu";
+        return "employees/employees";
     }
+
+
+
 }
